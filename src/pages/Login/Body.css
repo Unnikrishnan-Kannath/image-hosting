@@ -1,0 +1,88 @@
+.body_main_wrapper{
+    min-width: 100%;
+    min-height: 100%;
+}
+.login_main_wrapper{
+    background-color: white;
+    max-width: 25%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form_control{
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+    height: 20px;
+    padding: 10px 16px;
+    background-color: #fff;
+    border-color: rgba(32,166,210,.5);
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 16px;  
+    
+}
+.form_main_wrapper{
+    width: -webkit-fill-available;
+}
+.form_control_button{
+    width: -webkit-fill-available;
+    cursor: pointer;
+    background-color: rgb(32, 166, 210);
+    border-color: rgb(32, 166, 210);
+    color: rgb(255, 255, 255);
+    border-radius: 2.5rem;
+    padding: 8px 16px;
+    /* border-radius: 10px; */
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    outline: none;
+    transition: all .3s;
+    margin-bottom: 10px;
+}
+.login_sub_area{
+    background-color: white;
+    max-width: 25%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+.form_control_button_disabled{
+    width: -webkit-fill-available;
+    background-color: rgb(200, 208, 211);
+    border-color: rgb(200, 208, 211);
+    color: rgb(255, 255, 255);
+    border-radius: 2.5rem;
+    padding: 8px 16px;
+    /* border-radius: 10px; */
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    outline: none;
+    transition: all .3s;
+    margin-bottom: 10px;
+}
+.button_disabled{
+    background-color: rgb(200, 208, 211);
+    border-color: rgb(200, 208, 211);
+    color: rgb(255, 255, 255);
+    border-radius: 2.5rem;
+    padding: 8px 16px;
+    /* border-radius: 10px; */
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    outline: none;
+    transition: all .3s;
+    margin-bottom: 10px;
+}
